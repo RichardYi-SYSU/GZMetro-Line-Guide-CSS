@@ -1,0 +1,355 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>广州地铁导引图</title>
+  <link rel="stylesheet" href="./gzmtr-line-guide.css" />
+  <style>
+    body {
+      background-color: #f7f9fb;
+      font-family: -apple-system, BlinkMacSystemFont, "PingFang SC", "Microsoft YaHei", "黑体", Arial, sans-serif;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 20px;
+      min-height: 100vh;
+      justify-content: space-between; /* 用于确保底部区域被推到页面底部 */
+    }
+
+    .banner {
+      width: 90%;
+      max-width: 800px;
+      text-align: center;
+      margin-bottom: 30px;
+      padding: 20px;
+      background-color: #ffffff;
+      border-radius: 117.5px;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    }
+
+    .banner h1 {
+      font-size: 32px;
+      color: #333;
+      margin-bottom: 10px;
+    }
+
+    .banner p {
+      color: #666;
+      font-size: 16px;
+    }
+
+    .metro-grid {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 16px;
+      justify-content: center;
+      max-width: 1000px;
+    }
+
+    .box_gzmtr {
+      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+      transition: transform 0.2s ease;
+    }
+
+    .box_gzmtr:hover {
+      transform: scale(1.03);
+    }
+
+    /* 底部区域样式 */
+    footer {
+      
+      padding: 10px 0px;
+      border-radius: 36.5px;
+      width: 90%;
+      max-width: 800px;
+      text-align: center;
+      margin-bottom: 0px;
+      padding: 20px;
+      background-color: #ffffff;
+      border-radius: 117.5px;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    }
+
+    footer p {
+      font-size: 14px;
+      color: #666;
+    }
+  </style>
+</head>
+<body>
+  <div class="banner">
+    <h1>广州地铁线路标识图V1.0</h1>
+    <p>包含部分广州地铁线路（暂无有轨电车线路标识图）</p>
+  </div>
+
+  <div class="metro-grid">
+    <div class="box_gzmtr line1_bg">
+        <div class="left line1_left">
+            1
+        </div>
+
+        <div class="right line1_right">
+            <div class="text">号线</div>
+            <div class="sub">Line&nbsp;1</div>
+        </div>
+    </div>
+
+    <div class="box_gzmtr line2_bg">
+        <div class="left line2_left">
+            2
+        </div>
+
+        <div class="right line2_right">
+            <div class="text">号线</div>
+            <div class="sub">Line&nbsp;2</div>
+        </div>
+    </div>
+
+    <div class="box_gzmtr line3_bg">
+        <div class="left line3_left">
+            3
+        </div>
+
+        <div class="right line3_right">
+            <div class="text">号线</div>
+            <div class="sub">Line&nbsp;3</div>
+        </div>
+    </div>
+
+    <div class="box_gzmtr line4_bg">
+        <div class="left line4_left">
+            4
+        </div>
+
+        <div class="right line4_right">
+            <div class="text">号线</div>
+            <div class="sub">Line&nbsp;4</div>
+        </div>
+    </div>
+
+    <div class="box_gzmtr line5_bg">
+        <div class="left line5_left">
+            5
+        </div>
+
+        <div class="right line5_right">
+            <div class="text">号线</div>
+            <div class="sub">Line&nbsp;5</div>
+        </div>
+    </div>
+
+    <div class="box_gzmtr line6_bg">
+        <div class="left line6_left">
+            6
+        </div>
+
+        <div class="right line6_right">
+            <div class="text">号线</div>
+            <div class="sub">Line&nbsp;6</div>
+        </div>
+    </div>
+
+    <div class="box_gzmtr line7_bg">
+        <div class="left line7_left">
+            7
+        </div>
+
+        <div class="right line7_right">
+            <div class="text">号线</div>
+            <div class="sub">Line&nbsp;7</div>
+        </div>
+    </div>
+
+    <div class="box_gzmtr line8_bg">
+        <div class="left line8_left">
+            8
+        </div>
+
+        <div class="right line8_right">
+            <div class="text">号线</div>
+            <div class="sub">Line&nbsp;8</div>
+        </div>
+    </div>
+
+    <div class="box_gzmtr line9_bg">
+        <div class="left line9_left">
+            9
+        </div>
+
+        <div class="right line9_right">
+            <div class="text">号线</div>
+            <div class="sub">Line&nbsp;9</div>
+        </div>
+    </div>
+
+    <div class="box_gzmtr line10_bg">
+        <div class="left line10_left">
+            10
+        </div>
+
+        <div class="right line10_right">
+            <div class="text">号线</div>
+            <div class="sub">Line&nbsp;10</div>
+        </div>
+    </div>
+
+    <div class="box_gzmtr line11_bg">
+        <div class="left line11_left">
+            11
+        </div>
+
+        <div class="right line11_right">
+            <div class="text">号线</div>
+            <div class="sub">Line&nbsp;11</div>
+        </div>
+    </div>
+
+    <div class="box_gzmtr line12_bg">
+        <div class="left line12_left">
+            12
+        </div>
+
+        <div class="right line12_right">
+            <div class="text">号线</div>
+            <div class="sub">Line&nbsp;12</div>
+        </div>
+    </div>
+
+    <div class="box_gzmtr line13_bg">
+        <div class="left line13_left">
+            13
+        </div>
+
+        <div class="right line13_right">
+            <div class="text">号线</div>
+            <div class="sub">Line&nbsp;13</div>
+        </div>
+    </div>
+
+    <div class="box_gzmtr line14_bg">
+        <div class="left line14_left">
+            14
+        </div>
+
+        <div class="right line14_right">
+            <div class="text">号线</div>
+            <div class="sub">Line&nbsp;14</div>
+        </div>
+    </div>
+
+    <div class="box_gzmtr line18_bg">
+        <div class="left line18_left">
+            18
+        </div>
+
+        <div class="right line18_right">
+            <div class="text">号线</div>
+            <div class="sub">Line&nbsp;18</div>
+        </div>
+    </div>
+
+    <div class="box_gzmtr line21_bg">
+        <div class="left line21_left">
+            21
+        </div>
+
+        <div class="right line21_right">
+            <div class="text">号线</div>
+            <div class="sub">Line&nbsp;21</div>
+        </div>
+    </div>
+
+    <div class="box_gzmtr line22_bg">
+        <div class="left line22_left">
+            22
+        </div>
+
+        <div class="right line22_right">
+            <div class="text">号线</div>
+            <div class="sub">Line&nbsp;22</div>
+        </div>
+    </div>
+
+    <div class="box_gzmtr lineGF_bg">
+        <div class="left lineGF_left">
+            广佛线
+        </div>
+
+        <div class="right lineGF_right">
+            Guangfo&nbsp;Line
+        </div>
+    </div>
+
+    <div class="box_gzmtr lineAPM_bg">
+        <div class="left lineAPM_left">
+            APM
+        </div>
+
+        <div class="right lineAPM_right">
+            <div class="text">线</div>
+            <div class="sub">Line</div>
+        </div>
+    </div>
+
+    </div>
+    <br>
+    <div class="usage-methods">
+    <h2>使用方法</h2>
+    <hr>
+    <br>
+    首先使用link标签引入此CSS：&lt;link rel="stylesheet" href="gzmtr-line-guide.css"&gt;
+    <br>
+    <br>
+    <ul>
+      <li>对于数字线路, 将‘X’替换为你需要绘制的数字：
+        <pre style="background-color: rgba(0, 0, 0, 0.1);border-radius:30px;">
+        <code>
+        &lt;div class="box_gzmtr lineX_bg"&gt;
+                &lt;div class="left lineX_left"&gt; X &lt;/div&gt;
+                &lt;div class="right lineX_right"&gt;
+                        &lt;div class="text"&gt;号线&lt;/div&gt;
+                        &lt;div class="sub"&gt;Line&nbsp;X&lt;/div&gt;
+                &lt;/div&gt;
+        &lt;/div&gt;
+        </code>
+        </pre>
+      </li>
+      <br>
+      <li>对于APM线路，直接使用以下代码绘制：
+        <pre style="background-color: rgba(0, 0, 0, 0.1);border-radius:30px;">
+        <code>
+        &lt;div class="box_gzmtr lineAPM_bg"&gt;
+                &lt;div class="left lineAPM_left"&gt; APM &lt;/div&gt;
+                &lt;div class="right lineAPM_right"&gt;
+                        &lt;div class="text"&gt;线&lt;/div&gt;
+                        &lt;div class="sub"&gt;Line&lt;/div&gt;
+                &lt;/div&gt;
+        &lt;/div&gt;
+        </code>
+        </pre>
+      </li>
+      <br>
+      <li>对于广佛线，直接使用以下代码绘制：
+        <pre style="background-color: rgba(0, 0, 0, 0.1);border-radius:30px;">
+        <code>
+        &lt;div class="box_gzmtr lineGF_bg"&gt;
+                &lt;div class="left lineGF_left"&gt; 广佛线 &lt;/div&gt;
+                &lt;div class="right lineGF_right"&gt;
+                        Guangfo&nbsp;Line
+                &lt;/div&gt;
+        &lt;/div&gt;
+        </code>
+        </pre>
+      </li>
+    </ul>
+  </div>
+  <br>
+  <br>
+
+
+  <footer>
+    <p>Created by RichardYi-SYSU</p>
+  </footer>
+</body>
+</html>
